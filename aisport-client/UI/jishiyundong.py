@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'jishiyundong.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(1163, 851)
+        self.widget = QtWidgets.QWidget(Form)
+        self.widget.setGeometry(QtCore.QRect(0, 0, 1161, 851))
+        self.widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.widget.setObjectName("widget")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(180, 40, 961, 801))
+        self.label.setStyleSheet("background-color: rgb(22, 22, 22);")
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.openshexiangtou = QtWidgets.QPushButton(self.widget)
+        self.openshexiangtou.setGeometry(QtCore.QRect(20, 370, 131, 61))
+        self.openshexiangtou.setObjectName("openshexiangtou")
+        self.fanhui = QtWidgets.QPushButton(self.widget)
+        self.fanhui.setGeometry(QtCore.QRect(30, 590, 121, 51))
+        self.fanhui.setObjectName("fanhui")
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        self.label_2.setGeometry(QtCore.QRect(250, 10, 131, 16))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.widget)
+        self.label_3.setGeometry(QtCore.QRect(420, 10, 91, 16))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.widget)
+        self.label_4.setGeometry(QtCore.QRect(10, 120, 61, 21))
+        font = QtGui.QFont()
+        font.setPointSize(9)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(self.widget)
+        self.label_5.setGeometry(QtCore.QRect(70, 120, 71, 20))
+        self.label_5.setText("")
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.widget)
+        self.label_6.setGeometry(QtCore.QRect(690, 10, 381, 21))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_6.setFont(font)
+        self.label_6.setText("")
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.widget)
+        self.label_7.setGeometry(QtCore.QRect(10, 180, 161, 31))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_7.setFont(font)
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(self.widget)
+        self.label_8.setGeometry(QtCore.QRect(40, 230, 72, 15))
+        self.label_8.setObjectName("label_8")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.openshexiangtou.setText(_translate("Form", "打开摄像头"))
+        self.fanhui.setText(_translate("Form", "返回"))
+        self.label_2.setText(_translate("Form", "当前运动项目为："))
+        self.label_3.setText(_translate("Form", "TextLabel"))
+        self.label_4.setText(_translate("Form", "用户名："))
+        self.label_7.setText(_translate("Form", "每个动作的训练时间："))
+        self.label_8.setText(_translate("Form", "TextLabel"))
+

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/724.png</file>
+    <file>images/mountainVertial.jpg</file>
+    <file>images/model.jpg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/disexpend.png</file>
+    <file>icons/close.png</file>
+  </qresource>
+</RCC>
